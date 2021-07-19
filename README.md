@@ -1,4 +1,5 @@
 # vue-auto-sizer
+| Vue component that automatically adjusts the width and height of a single child.
 
 ## Project setup
 ```
@@ -12,7 +13,7 @@ yarn serve
 
 ### Compiles and minifies for production
 ```
-yarn build
+yarn build:lib
 ```
 
 ### Run your unit tests

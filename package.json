@@ -1,10 +1,22 @@
 {
   "name": "vue-auto-sizer",
   "version": "0.1.0",
-  "private": true,
+  "description": "Vue component that automatically adjusts the width and height of a single child.",
+  "homepage": "https://github.com/7anshuai/vue-auto-sizer",
+  "repository": "7anshuai/vue-auto-sizer",
+  "author": "Tan Shuai <7anshuai@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "auto-size",
+    "auto-sizer",
+    "vue"
+  ],
+  "main": "dist/vue-auto-sizer.common.js",
+  "umd": "dist/vue-auto-sizer.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build:app": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --modern --target lib src/index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
@@ -18,6 +30,7 @@
     "@vue/cli-plugin-unit-jest": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/server-test-utils": "^1.2.1",
     "@vue/test-utils": "^1.0.3",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
@@ -26,6 +39,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
+    "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.11"
   }
 }
