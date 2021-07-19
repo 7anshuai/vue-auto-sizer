@@ -46,7 +46,7 @@ Read more about common `AutoSizer` questions [here](#questions).
     </p>
 
     <div class="auto-sizer-wrapper">
-      <auto-sizer v-slot="{ sizer: { height, width} }">
+      <auto-sizer v-slot="{ size: { height, width} }">
         <div :style="{ height: height + 'px', width: width + 'px' }">
           Auto sized content...
         </div>
@@ -94,6 +94,11 @@ yarn serve
 ```
 
 ### Compiles and minifies for production
+```
+yarn build
+```
+
+### Compiles and minifies for npm package
 ```
 yarn build:lib
 ```
