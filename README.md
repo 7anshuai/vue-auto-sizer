@@ -4,6 +4,14 @@ Vue component that automatically adjusts the width and height of a single child.
 
 > Note: vue-auto-sizer is a vue clone of [react-virtualized-auto-sizer](https://github.com/bvaughn/react-virtualized/blob/master/docs/AutoSizer.md)
 
+## Usage
+
+### Installtion
+
+```bash
+$ npm install @7anshuai/vue-auto-sizer
+```
+
 ### Prop Types
 
 | Property      | Type     | Required? | Description                                                                                                                                                     |
@@ -48,7 +56,7 @@ Read more about common `AutoSizer` questions [here](#questions).
 </template>
 
 <script>
-import AutoSizer from 'vue-auto-sizer'
+import AutoSizer from '@7anshuai/vue-auto-sizer'
 
 export default {
   name: 'App',
