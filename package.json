@@ -1,6 +1,6 @@
 {
   "name": "@7anshuai/vue-auto-sizer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vue component that automatically adjusts the width and height of a single child.",
   "homepage": "https://github.com/7anshuai/vue-auto-sizer",
   "repository": "7anshuai/vue-auto-sizer",
